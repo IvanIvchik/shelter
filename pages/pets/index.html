@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Pets</title>
+    <link href="http://fonts.cdnfonts.com/css/georgia" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/arial" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link type="image/x-icon" href="../../assets/favicon.ico" rel="shortcut icon" />
+    <link type="Image/x-icon" href="../../assets/favicon.ico" rel="icon" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../main/index.html"></a>
+                <h1>Cozy House</h1>
+                <h3>Shelter for pets in Boston</h3>
+            </div>
+            <nav class="nav">
+                <div class="logo menu-burger">
+                    <a href="../main/index.html"></a>
+                    <h1>Cozy House</h1>
+                    <h3>Shelter for pets in Boston</h3>
+                </div>
+                <ul class="nav-list-links">
+                    <li><a href="../main/index.html" class="nav-link">About the shelter</a></li>
+                    <li><a href="index.html" class="nav-link active">Our pets</a></li>
+                    <li><a href="../main/index.html#help" class="nav-link">Help the shelter</a></li>
+                    <li><a href="#footer" class="nav-link">Contacts</a></li>
+                </ul>
+
+            </nav>
+            <div class="menu-icon">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="background-shadow"></div>
+    </header>
+
+    <main>
+        <section id="our-friends">
+            <h2>Our friends who <br> are looking for a house</h2>
+            <div class="container">
+                <div class="slider">
+                    <div class="container-card-pets"></div>
+                    <div class="navigation">
+                        <span class="navigation-btn to-begining-btn inactive">&#60;&#60;</span>
+                        <span class="navigation-btn prev-btn inactive">&#60;</span>
+                        <span class="navigation-btn counter"></span>
+                        <span class="navigation-btn next-btn active">&#62;</span>
+                        <span class="navigation-btn in-end-btn active">&#62;&#62;</span>
+                    </div>
+                </div>
+                <div class="background-shadow-popup"></div>
+
+                <div class="popup">
+                    <div class="close-popup-btn">
+                        <img src="../../assets/icons/Vector.svg" alt="close">
+                    </div>
+                    <div class="content-popup">
+                        <div class="image-popup">
+                            <img class="im-popup" src="" alt="">
+                        </div>
+                        <div class="overview-pet">
+                            <h4 class="name-pet-popup"></h4>
+
+                            <div class="type">
+                                <p class="type-pet"></p>
+                                <span>-</span>
+                                <p class="breed"></p>
+                            </div>
+
+                            <p class="overview-popup"></p>
+
+                            <ul class="last-information">
+                                <li class="list-popup">Age: <span class="age-pet-popup"></span></li>
+                                <li class="list-popup">Inoculation: <span class="inoculation"></span></li>
+                                <li class="list-popup">Diseases: <span class="diseases"></span></li>
+                                <li class="list-popup">Parasites: <span class="parasites"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="contacts">
+                <h2 class="title-footer">For questions and suggestions</h2>
+                <a href="mailto:email@shelter.com" class="email"> <img src="../../assets/icons/icon-email.svg"
+                        alt="email">email@shelter.com</a>
+                <a href="tel:+136745677554" class="number"> <img src="../../assets/icons/icon-phone.svg" alt="tel">+13
+                    674 567 75 54</a>
+            </div>
+            <div class="location">
+                <h2 class="title-footer">We are waiting for your visit</h2>
+                <a href="https://goo.gl/maps/sChqbgatnPbmBw6p9" target="_blank"><img
+                        src="../../assets/icons/icon-marker.svg" alt="location">1 Central Street, Boston (entrance from
+                    the store)</a>
+                <a href="https://goo.gl/maps/GKWCZv8gsJwTA5o28" target="_blank"><img
+                        src="../../assets/icons/icon-marker.svg" alt="location">18 South Park, London </a>
+            </div>
+            <div class="image-puppy-footer">
+                <img src="../../assets/images/footer-puppy.png" alt="puppy">
+            </div>
+        </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
